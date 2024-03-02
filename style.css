@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #36494E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p,
+.author{
+    color:#1f1f1f;
+}
+
+
+.container {
+    width: 60%;
+    background-color: #597081;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container header {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.quote-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quote-area .quote {
+    font-size: 20px;
+    display: flex; 
+    align-items: center; 
+}
+.quote-area i {
+    font-size: 20px; 
+    margin-right: 5px;
+}
+
+
+#first {
+    color:white;
+    font-size: 15px;
+    margin-right: 1rem; 
+} 
+#second{
+    color:white;
+    font-size: 15px;
+    margin-left: 1rem; 
+}
+
+.author {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    background-color:#708ca1;
+    border-radius: 0 0 1rem 1rem; 
+    
+}
+
+.features {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+}
+
+.features li {
+    margin-left: 1rem;
+}
+.features li:hover{
+    color:#fff;
+    background: #5372F0;
+    border-radius: 50%;
+}
+
+button {
+    font-size: 20px;
+    color: #c32227;
+    background-color: #A9CEF4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 1rem;
+}
+
+button:hover {
+    background-color: #7BADD1;
+}
+.features i{
+color: blue; 
+border: 2px solid white; 
+border-radius: 50%;
+padding: 10px; 
+cursor: pointer;
+}
+
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
